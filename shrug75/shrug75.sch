@@ -2365,4 +2365,110 @@ Text GLabel 7750 900  1    50   Input ~ 0
 COL14
 Text GLabel 8150 900  1    50   Input ~ 0
 COL15
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 607B7F9C
+P 11900 3150
+F 0 "J?" H 12007 4017 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 12007 3926 50  0000 C CNN
+F 2 "" H 12050 3150 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 12050 3150 50  0001 C CNN
+	1    11900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 607CB8F9
+P 12550 2500
+F 0 "#PWR?" H 12550 2350 50  0001 C CNN
+F 1 "+5V" H 12565 2673 50  0000 C CNN
+F 2 "" H 12550 2500 50  0001 C CNN
+F 3 "" H 12550 2500 50  0001 C CNN
+	1    12550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 2550 12550 2550
+Wire Wire Line
+	12550 2550 12550 2500
+$Comp
+L power:GND #PWR?
+U 1 1 607D47EF
+P 11750 4200
+F 0 "#PWR?" H 11750 3950 50  0001 C CNN
+F 1 "GND" H 11755 4027 50  0000 C CNN
+F 2 "" H 11750 4200 50  0001 C CNN
+F 3 "" H 11750 4200 50  0001 C CNN
+	1    11750 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 4050 11750 4050
+Connection ~ 11750 4050
+Wire Wire Line
+	11750 4050 11900 4050
+Wire Wire Line
+	12500 3050 12550 3050
+Wire Wire Line
+	12550 3050 12550 3100
+Wire Wire Line
+	12550 3150 12500 3150
+Wire Wire Line
+	12550 3100 12600 3100
+Connection ~ 12550 3100
+Wire Wire Line
+	12550 3100 12550 3150
+Text GLabel 12600 3100 2    50   Input ~ 0
+D-
+Wire Wire Line
+	12500 3250 12550 3250
+Wire Wire Line
+	12550 3250 12550 3300
+Wire Wire Line
+	12550 3350 12500 3350
+Wire Wire Line
+	12550 3300 12600 3300
+Connection ~ 12550 3300
+Wire Wire Line
+	12550 3300 12550 3350
+Text GLabel 12600 3300 2    50   Input ~ 0
+D+
+$Comp
+L Device:R_Small R?
+U 1 1 6080B5E9
+P 12600 2750
+F 0 "R?" V 12550 2900 50  0000 C CNN
+F 1 "5.1K" V 12500 2750 50  0000 C CNN
+F 2 "" H 12600 2750 50  0001 C CNN
+F 3 "~" H 12600 2750 50  0001 C CNN
+	1    12600 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6080CA2C
+P 12600 2850
+F 0 "R?" V 12650 3000 50  0000 C CNN
+F 1 "5.1K" V 12700 2850 50  0000 C CNN
+F 2 "" H 12600 2850 50  0001 C CNN
+F 3 "~" H 12600 2850 50  0001 C CNN
+	1    12600 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12700 2750 12850 2750
+Wire Wire Line
+	12850 2750 12850 2850
+Wire Wire Line
+	12700 2850 12850 2850
+Connection ~ 12850 2850
+Wire Wire Line
+	11750 4050 11750 4150
+Wire Wire Line
+	12850 4150 11750 4150
+Wire Wire Line
+	12850 2850 12850 4150
+Connection ~ 11750 4150
+Wire Wire Line
+	11750 4150 11750 4200
 $EndSCHEMATC
