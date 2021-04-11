@@ -3059,4 +3059,52 @@ Text GLabel 4050 7350 0    50   Input ~ 0
 D_P
 Text GLabel 4050 7450 0    50   Input ~ 0
 D_N
+Text GLabel 5250 6350 2    50   Input ~ 0
+COL0
+Text GLabel 5250 6450 2    50   Input ~ 0
+COL1
+Text GLabel 5250 6550 2    50   Input ~ 0
+COL2
+Text GLabel 5250 6650 2    50   Input ~ 0
+COL3
+Text GLabel 5250 7050 2    50   Input ~ 0
+COL4
+Text GLabel 5250 7550 2    50   Input ~ 0
+COL5
+Text GLabel 5250 7650 2    50   Input ~ 0
+COL6
+Text GLabel 5250 7750 2    50   Input ~ 0
+ROW5
+Text GLabel 5250 7850 2    50   Input ~ 0
+ROW4
+Text GLabel 5250 8050 2    50   Input ~ 0
+ROW3
+Text GLabel 5250 7950 2    50   Input ~ 0
+ROW0
+Text GLabel 5250 8150 2    50   Input ~ 0
+ROW1
+Text GLabel 5250 8250 2    50   Input ~ 0
+ROW2
+Text GLabel 5250 6750 2    50   Input ~ 0
+COL7
+Text GLabel 5250 6850 2    50   Input ~ 0
+COL8
+Text GLabel 5250 6950 2    50   Input ~ 0
+COL9
+Text GLabel 5250 7250 2    50   Input ~ 0
+COL10
+Text GLabel 5250 8750 2    50   Input ~ 0
+COL11
+Text GLabel 5250 8850 2    50   Input ~ 0
+COL12
+Text GLabel 5250 8950 2    50   Input ~ 0
+COL13
+Text GLabel 5250 9050 2    50   Input ~ 0
+COL14
+Text GLabel 5250 7350 2    50   Input ~ 0
+COL15
+Text GLabel 5250 9250 2    50   Input ~ 0
+EC11A_M
+Text GLabel 5250 9150 2    50   Input ~ 0
+EC11B_M
 $EndSCHEMATC
